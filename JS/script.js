@@ -16,7 +16,7 @@ const _Button = document.getElementById('_button');
 _Button.addEventListener('click', 
     function() {
 
-        alert('WAMUUUUUUUUU');
+        alert('cliccato');
 
         const kmInput = parseInt(document.querySelector('[name="km"]').value);
         console.log(kmInput, typeof kmInput);
@@ -26,7 +26,7 @@ _Button.addEventListener('click',
         console.log(ageInput, typeof ageInput);
         
         let price = 0.21 * kmInput;
-
+        console.log(price);
         
         //calcolo minorenne
         
